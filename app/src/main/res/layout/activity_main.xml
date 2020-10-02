@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#2D2D2D"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#f8f8f8"
+        android:drawableRight="@drawable/library_music_24px"
+        android:text="Choose Music Category"
+        android:textColor="#d51f4c"
+        android:textSize="16sp"
+
+        android:textStyle="bold"></TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        ></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#23191e"
+        android:elevation="8dp"
+
+        >
+
+        <Button
+            android:id="@+id/openAudioFiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2b2028"
+            android:text="Upload songs here: "
+            android:onClick="OpenAudioFiles"
+
+            android:textAllCaps="false"
+            android:textColor="#d51f4c"
+            android:textColorHighlight="#B1984D"
+            android:textSize="16sp"
+            android:textStyle="bold"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:gravity="center"
+            android:text="Please select something"
+            android:textColor="#d51f4c"
+            android:id="@+id/textViewSongFilesSelected"
+            android:layout_marginLeft="10dp"></TextView>
+
+            ></LinearLayout>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:id="@+id/progressbar"
+        android:layout_marginTop="10dp"
+        >
+    </ProgressBar>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#23191e"
+        android:id="@+id/buttonUpload"
+        android:text="upload"
+        android:onClick="uploadFileToFirebase"
+        android:textStyle="bold"
+        android:textColor="#d51f4c"
+        ></Button>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/title"
+            android:textColor="#d51f4c"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Album"
+            android:id="@+id/album"
+            android:textColor="#d51f4c"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist"
+            android:id="@+id/artist"
+            android:textColor="#d51f4c"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:id="@+id/genre"
+            android:textColor="#d51f4c"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textColor="#d51f4c"
+            android:id="@+id/duration"
+            android:textStyle="bold"
+            >
+        </TextView>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageview"
+            ></ImageView>
+
+        </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/openimageuploadactivity"
+        android:text="Upload album activity"
+        android:background="#23191e"
+        android:textColor="#d51f4c"
+        ></Button>
+
+</LinearLayout>

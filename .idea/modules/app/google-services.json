@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "13431049701",
+    "firebase_url": "https://soundstreamingapp.firebaseio.com",
+    "project_id": "soundstreamingapp",
+    "storage_bucket": "soundstreamingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13431049701:android:ae43d63d9b61b88aedb30c",
+        "android_client_info": {
+          "package_name": "edu.ktu.soundstreamingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13431049701-51tro7r6q8n2784m9hlro91rkvrvio3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.ktu.soundstreamingapp",
+            "certificate_hash": "2a8723e0e04c66906f0692e50897802346696089"
+          }
+        },
+        {
+          "client_id": "13431049701-8o2sc8unu9uqv77l93dup4ev64tbg6oa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2zQg2DkwGOed_QkzIkscFk_Udk0zFVQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13431049701-8o2sc8unu9uqv77l93dup4ev64tbg6oa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
